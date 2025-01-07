@@ -1,0 +1,40 @@
+{
+    "name": "codeadminde/socialite-adfs-provider",
+    "description": "Basic ADFS OAuth2 Provider for Laravel Socialite",
+    "type": "library",
+    "require": {
+        "laravel/socialite": "~5.2",
+        "firebase/php-jwt": "^6.5"
+    },
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Laravel Socialite",
+        "ADFS",
+        "Microsoft Active Directory Federation Services",
+        "OAuth",
+        "OAuth2",
+        "SSO",
+        "Single-Sign-On"
+    ],
+    "authors": [
+        {
+            "name": "IT-Habich - Frederic Roggon",
+            "email": "packagist@it-habich.de",
+            "homepage": "https://it-habich.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodeAdminDe\\SocialiteAdfsProvider\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeAdminDe\\SocialiteAdfsProvider\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
