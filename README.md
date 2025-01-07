@@ -6,7 +6,7 @@ Basic ADFS OAuth2 Provider for [Laravel Socialite](https://laravel.com/docs/8.x/
 ## Installation
 
 ```bash
-composer require codeadminde/socialite-adfs-provider
+composer require rahife/socialite-adfs-provider
 ```
 
 ## Configuration
