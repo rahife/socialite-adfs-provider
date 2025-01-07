@@ -1,5 +1,5 @@
 {
-    "name": "codeadminde/socialite-adfs-provider",
+    "name": "rahife/socialite-adfs-provider",
     "description": "Basic ADFS OAuth2 Provider for Laravel Socialite",
     "version": "1.0.0",
     "type": "library",
