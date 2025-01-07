@@ -1,0 +1,1 @@
+# socialite-adfs-provider
