@@ -12,9 +12,9 @@ class Provider extends AbstractProvider
     /**
      *  ADFS Endpoints.
      */
-    protected $authorize_endpoint = '/adfs/oauth2/authorize';
-    protected $token_endpoint = '/adfs/oauth2/token';
-    protected $config_endpoint = '/adfs/.well-known/openid-configuration';
+    protected $authorize_endpoint = '/oauth2/authorize';
+    protected $token_endpoint = '/oauth2/token';
+    protected $config_endpoint = '/.well-known/openid-configuration';
 
     /**
      * {@inheritdoc}
